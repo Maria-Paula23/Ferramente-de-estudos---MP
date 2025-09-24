@@ -20,7 +20,6 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: aqua;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -67,6 +66,14 @@ body {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
+}
+
+.cartao__conteudo__pergunta p{
+    color: var(--text-color);
+}
+
+.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
 }
 
 footer {
